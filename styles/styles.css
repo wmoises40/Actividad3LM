@@ -1,0 +1,259 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: 'Mifuente';
+    src: url(../fonts/sf-pro-display/SFPRODISPLAYMEDIUM.OTF);
+}
+body{
+    background-color: rgb(15, 15, 15);
+}
+header{
+    font-family: 'Mifuente';
+    position: absolute; /*acaaaaaaaaaaaaa*/
+    top: 0px;
+    left: 0px;
+    width: 55%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    background: rgb(122, 61, 61);
+    border-radius: 10px;
+    padding: 5px;
+}
+header .logo:hover{
+    color: darkgoldenrod;
+    transition: 0.5s;
+}
+header .nav{
+    position: relative;
+    display: flex;
+}
+header .nav li{
+    list-style: none;
+    margin-left: 30px;
+}
+header .nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 0.9em;
+}
+header .nav li a:hover{
+    border-bottom: 5px solid ;
+    padding: 2px;
+}
+ul{
+    list-style: none;
+}
+section{
+    color: rgb(223, 223, 223);
+    position: relative;
+    width: 95%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+/*Parte del contenido*/
+.contenido{
+    font-family: 'Mifuente';
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+.contenido .titulobox{
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+}
+.contenido .titulobox h2{
+    font-size: 4.5em;
+}
+/*esto aun no lo hago ->*/
+/*.contenido .titulobox p{
+    font-size: 1.8em;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 20px;
+}*/
+h3{
+    font-size: 2rem;
+}
+#pepe{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenido .imgbox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    z-index: -5;
+}
+.contenido .imgbox img{
+    height: 80vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenido .imgbox img:hover{
+    height: 80vh;
+}
+/*copyright*/
+.copyright{
+    position: absolute;
+    bottom: 0px;
+    left: 800px;
+    margin-bottom: 20px;
+    padding: 0 100px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright p{
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+}
+/*Redes sociales*/
+.redesSociales{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 30px;
+    list-style: none;
+}
+.redesSociales li{
+    padding: 10px;
+}
+.redesSociales li a{
+    color: grey;
+    font-size: 2.5em;
+    transition: 0.3s;
+}
+.redesSociales li:hover a{
+    color: rgb(223, 205, 205);
+}
+
+/**************************************************************/
+
+/*pagina CV*/
+body#CV{
+    background-color: rgb(15, 15, 15);
+    font-family: 'Mifuente';
+    text-align: center;
+    color: white;
+}
+.encabezado{
+    margin: 25px;
+    transition: 1s;
+}
+.encabezado2{
+    margin: 25px;
+    border: 2px solid rgb(196, 36, 36);
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+.encabezado3{
+    margin: 25px;
+    border: 2px solid rgb(196, 36, 36);
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+#pepe{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 250px;
+    height: 250px;
+}
+#ciber{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/*********************************/
+
+/*Proyectos*/
+body#proyectos{
+    background-color: rgb(15, 15, 15);
+    font-family: 'Mifuente';
+    text-align: center;
+    color: white;
+}
+#h1proyecto{
+    font-size: 5rem;
+    margin: 20px;
+    text-decoration: underline;
+}
+#parrafoproyectos{
+    line-height: 1.5;
+    font-size: 22px ;
+}
+.Github img{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    margin-top: 60px;
+    border-radius: 50px;
+}
+.Github:hover img{
+    transition: 1.5s;
+    background-color: goldenrod;
+    border: red solid 1px;
+}
+/*******************************/
+
+/*Contacto*/
+
+body#contacto{
+    background-color: rgb(15, 15, 15);
+    font-family: 'Mifuente';
+    text-align: center;
+    color: white;
+}
+#tituloform{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-size: 5rem;
+}
+#parrafoform{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+.fieldset{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+form{
+    margin: auto;
+    width: 600px;
+    height: 250px;
+}
+#imgcontacto{
+    height: 500px;
+    width: 500px;
+}
